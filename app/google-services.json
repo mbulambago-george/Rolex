@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "708998669292",
+    "firebase_url": "https://rolexap-80641.firebaseio.com",
+    "project_id": "rolexap-80641",
+    "storage_bucket": "rolexap-80641.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708998669292:android:bf6cf387631881c5",
+        "android_client_info": {
+          "package_name": "com.example.george.rolexap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708998669292-sffj2k5k05om2eqgm3bd1nblak1e7566.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.george.rolexap",
+            "certificate_hash": "d031ffd17ce204e5517b98bd1154deffa28e64d8"
+          }
+        },
+        {
+          "client_id": "708998669292-h327ptk3uuobm8tsc8kugov187kfokh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAZRvan9FnOeUcOzZP6sgJxAPd_kC1R8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708998669292-h327ptk3uuobm8tsc8kugov187kfokh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

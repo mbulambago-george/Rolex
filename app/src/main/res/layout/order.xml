@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.george.rolexap.Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/fragment3"/>
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.george.rolexap.OrderType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/fragment"
+        />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.george.rolexap.Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/name"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/sub"
+        android:layout_below="@+id/amo"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount:"
+        android:textSize="30dp"
+        android:id="@+id/amo"
+        android:layout_below="@+id/fragment4" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editamo"
+        android:layout_toRightOf="@+id/amo"
+        android:layout_below="@+id/fragment4"
+        android:editable="false"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="58dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:hint="Please Enter Contact Here:" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fragment"
+        android:layout_alignParentTop="true"
+        android:id="@+id/contact"
+        android:layout_alignRight="@+id/fragment"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Please Enter Your Name Here:" />
+    </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
